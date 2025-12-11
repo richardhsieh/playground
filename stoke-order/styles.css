@@ -1,0 +1,22 @@
+
+:root {
+  --bg: #fff;
+  --text: #0f172a;
+  --grid: #94a3b8;
+  --grid-light: #cbd5e1;
+  --outline: #94a3b8;   /* 練習輪廓顏色 */
+  --stroke: #334155;    /* 靜態筆畫顏色 */
+  --draw: #ef4444;      /* 動畫描紅顏色（紅） */
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+header, footer { text-align: center; padding: 1rem; }
+main { max-width: 680px; margin: 0 auto; padding: 1rem; }
+
+.controls {
