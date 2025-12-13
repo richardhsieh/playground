@@ -1,5 +1,3 @@
-
-<script type="module">
 // data/strokes.js
 export const CHAR_DATA = {
   "一": {
@@ -49,4 +47,3 @@ export const CHAR_DATA = {
     ]
   }
 };
-</script>
